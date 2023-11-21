@@ -12,7 +12,7 @@ public class LoginPage {
 		this.driver=driver; 
 		PageFactory.initElements(driver, this);
 	}
-
+//firoj
 	@FindBy(how=How.XPATH, using ="//button[@id='openwindow']")
 	private WebElement buttonNewWindow;
 	
